@@ -24,8 +24,8 @@ env time -v -o test.txt qstat
 cat test.txt
 ```
 
->       Command being timed: "qstat"
-        User time (seconds): 0.04
+>Command being timed: "qstat"
+>User time (seconds): 0.04
         **System time (seconds): 0.01**
         Percent of CPU this job got: 48%
         Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.11
