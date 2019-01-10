@@ -18,10 +18,13 @@
 
 * Given a Linux machine, the shell command I would use to measure run time and peak ram usage would be `env time -v -o [OUTPUT] [COMMAND]`
 An example is shown below with the time/peak RAM values **bolded**.
+
 ```
 env time -v -o test.txt qstat
 cat test.txt
-        Command being timed: "qstat"
+```
+
+>       Command being timed: "qstat"
         User time (seconds): 0.04
         **System time (seconds): 0.01**
         Percent of CPU this job got: 48%
@@ -38,7 +41,7 @@ cat test.txt
         Involuntary context switches: 2
         Swaps: 0
         File system inputs: 8
-```
+
 
 4. What are the units of your answer for number 3?
 
